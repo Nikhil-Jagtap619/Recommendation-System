@@ -1,4 +1,3 @@
-from operator import index
 import streamlit as st
 import pandas as pd
 import pickle
@@ -91,7 +90,7 @@ def main():
         st.write("*Meanwhile my System*")
 
     st.sidebar.write("## Thank you for Visiting \nProject by Nikhil J")
-    st.sidebar.markdown("<h1 style='text-align: right; color: #d7e3fc; font-size: small;'><a href='https://github.com/Nikhil-Jagtap619/Recommendation-Engine'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h1 style='text-align: right; color: #d7e3fc; font-size: small;'><a href='https://github.com/Nikhil-Jagtap619/Recommendation-System'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
   # st.markdown("<h1 style='text-align: right; color: white; font-size: small'>you can find it on my GitHub</h1>", unsafe_allow_html=True)
 
     
